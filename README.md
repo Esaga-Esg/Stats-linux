@@ -11,4 +11,5 @@ Usage:
 Optional. If you want to save your output in a file just execute: sudo ./stats.sh > "filename"
 
 Tested on:
+
 -> Ubuntu 20.04.2 LTS focal (amd64/arm64)
