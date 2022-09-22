@@ -1,5 +1,5 @@
 #! /bin/bash
-printf "Hora\t\tMemory\t\tDisk\t\tCPU\t\tRx\t\tTx\n"
+printf "Hora\t\tMemoria\t\tDisco\t\tCPU\t\tRx\t\tTx\n"
 end=$((SECONDS+65))
 while [ $SECONDS -lt $end ]; do
 TIEMPO=$(date  | awk '{printf "%s\t", $(NF-2)}')
